@@ -1,0 +1,7 @@
+ul li {
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "contacts-book/model";
+
+message Contact {
+    string FirstName = 1;
+    string LastName = 2;
+    int32 Age = 3;
+    string Address = 4;
+    string Email = 5;
+}
+
+message Contacts {
+ 
+    repeated Contact Contacts = 1;
+}
